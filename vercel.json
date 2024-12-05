@@ -1,11 +1,5 @@
 {
     "version": 2,
-    "builds": [
-      {
-        "src": "next.config.mjs",
-        "use": "@vercel/next"
-      }
-    ],
     "routes": [
       {
         "src": "/(.*)",
@@ -14,6 +8,7 @@
     ],
     "env": {
       "NEXT_PUBLIC_API_URL": "https://user-api-neon-five.vercel.app/api/user"
-    }
+    },
+    "framework": "nextjs"
   }
   
