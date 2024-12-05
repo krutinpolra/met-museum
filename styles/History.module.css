@@ -1,0 +1,7 @@
+
+/* styles/History.module.css */
+.historyListItem:hover {
+    background-color: rgb(244, 244, 244); /* Light background on hover */
+    cursor: pointer; /* Change cursor to pointer to indicate interactivity */
+  }
+  

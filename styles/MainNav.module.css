@@ -1,0 +1,47 @@
+/* styles/MainNav.module.css */
+
+/* Navbar styling */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    padding: 0.8rem 1rem; /* Adjust padding */
+  }
+  
+  /* Brand styling */
+  .brand {
+    font-weight: 600;
+    font-size: 1.25rem;
+  }
+  
+  /* Nav Link hover effect */
+  .nav-link {
+    color: #f8f9fa !important; /* Light text */
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ffc107 !important; /* Flatly yellow on hover */
+  }
+  
+  /* Search input styling */
+  .searchInput {
+    border-radius: 0.25rem; /* Rounded corners */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Light border */
+    background-color: #f8f9fa; /* White background */
+  }
+  
+  .searchInput:focus {
+    border-color: #ffc107; /* Yellow border on focus */
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25); /* Shadow on focus */
+  }
+  
+  /* Search button styling */
+  .searchButton {
+    background-color: #ffc107; /* Flatly yellow */
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .searchButton:hover {
+    background-color: #e0a800; /* Darker yellow on hover */
+  }
+  
