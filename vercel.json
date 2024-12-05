@@ -1,14 +1,7 @@
 {
     "version": 2,
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/"
-      }
-    ],
     "env": {
       "NEXT_PUBLIC_API_URL": "https://user-api-neon-five.vercel.app/api/user"
-    },
-    "framework": "nextjs"
+    }
   }
   
