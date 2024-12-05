@@ -1,13 +1,14 @@
 /*********************************************************************************
-* WEB422 – Assignment 4
+* WEB422 – Assignment 6
 *
 * I declare that this assignment is my own work in accordance with Seneca's
 * Academic Integrity Policy:
 *
 * https://www.senecapolytechnic.ca/about/policies/academic-integrity-policy.html
 *
-* Name: KRUTIN BHARATBHAI POLRA Student ID: 135416220 Date: November 11th 2024
+* Name: KRUTIN BHARATBHAI POLRA Student ID: 135416220 Date: December 1st 2024
 *
+*Vercel App (Deployed) Link:  https://met-museum-wine.vercel.app
 ********************************************************************************/
 
 import { Row, Col, Image } from 'react-bootstrap';
